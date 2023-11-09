@@ -2,8 +2,8 @@
 //Per prima cosa procedo per chiedere all'utente il nome, quindi const InputUtente = prompt(..)
 
 
-const FirstName = parseInt(prompt('FirstName'));
-const LastName = parseInt(prompt('LastName'));
-const Color = parseInt(prompt('WhatIsYourFavoriteColor'));
+const FirstName = prompt ('FirstName');
+const LastName = prompt ('LastName');
+const Color =  prompt ('WhatIsYourFavoriteColor');
 
 document.getElementById('output').innerHTML = 'Le credenziali' + FirstName + LastName + Color;
